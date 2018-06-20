@@ -1,0 +1,180 @@
+body{
+    background: linear-gradient(#e3f2fd, #bbdefb) fixed;
+    /* min-width: 100%; */
+}
+
+/* .logo{ */
+  /* float: left; */
+/* } */
+span{
+  float:right;
+  font-size: 55px;
+  margin-right: 160px;
+  margin-top:10px;
+}
+.header{
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 950px;
+  height: 100px;
+  background-color: #334455;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 10px 10px 10px 10px ;
+}
+
+.main-body{
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 950px;
+  height: 530px;
+  /* border: 2px solid; */
+}
+
+.nav{
+  background-color:#334455;
+  float: left;
+  width: 210px;
+  /* border: 2px solid; */
+  height: 525px;
+  border-radius: 10px 10px 10px 10px ;
+}
+
+.play-area{
+  background-color:#334455;
+  float: right;
+  width: 720px;
+  /* border: 2px solid; */
+  height: 525px;
+  border-radius: 10px 10px 10px 10px ;
+}
+
+li {
+    display:inline; margin:0;
+    padding:0;
+    border: none;
+    /* width:20px; */
+    /* height:20px; */
+}
+ul.board {
+    text-align: center;
+    /* margin: 0; */
+
+    /* border: 2px solid; */
+    /*color:#fff;*/
+    /*border: none;*/
+}
+
+img:hover{
+    /* color: #334455; */
+    background: #fff;
+}
+.poker-table{
+    margin-left: auto;
+    margin-right: 10px;
+    border-radius: 140px 140px 140px 140px ;
+    background: linear-gradient(#e53935,#b71c1c );
+    width: 700px;
+    height: 350px;
+    border: 20px solid grey;
+}
+.left-side{
+  float: left;
+  /* border: 2px solid; */
+  width: 550px;
+  margin-left: 15px;
+  margin-top: 25px;
+
+}
+.right-side{
+  margin-top: 25px;
+  float: right;
+  /* border: 2px solid; */
+  width: 150px;
+  height: 80px;
+}
+
+.nav-buttons{
+  /* background: linear-gradient(#e3f2fd, #bbdefb); */
+  width: 180px;
+  height: 495px;
+  /* border: 2px solid; */
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 10px 10px 10px 10px ;
+
+}
+ul.collapsible{
+  text-decoration: none;
+  border: none;
+  /* background-color: #1a237e; */
+  /* width: 180px; */
+  /* border: 2px solid; */
+  /* border-radius: 40px 40px 40px 40px ; */
+
+}
+ul.collapsible li{
+  border: none;
+  display: block;
+}
+
+.collapsible-header{
+    height: 50px;
+    border: 1px solid blue;
+    /* background-color: black; */
+      /* border-radius: 10px 10px 10px 10px ; */
+    border: none;
+}
+
+
+ul.second-player{
+  text-align: center;
+  /* border: 2px solid; */
+}
+#secondArea{
+  /* border:2px solid; */
+  margin-top: -45px;
+}
+
+.firstPlayer1{
+  margin-left: 50px;
+}
+.thirdPlayer1{
+  margin-left: 350px;
+}
+ul.first-player{
+  text-align: center;
+}
+#thirdArea{
+  /* border: 2px solid; */
+  margin-top: -90px;
+}
+
+.fourthPlayer1{
+  margin-left: 50px;
+}
+.sixthPlayer1{
+  margin-left: 350px;
+}
+.absolute{
+  left: 597px;
+  top: 305px;
+  width: 97px;
+  height: 40px;
+  position: absolute;
+  /* border: 2px solid; */
+  font-size: 12px;
+  text-align: center;
+  background-color: #37474f ;
+  color: white;
+  /* opacity: 0.4; */
+}
+p.winrate{
+  margin-top: 2px;
+}
+
+.no-display{
+  display: none;
+}

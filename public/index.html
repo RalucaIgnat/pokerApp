@@ -1,0 +1,177 @@
+!<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <title>Poker table</title>
+  </head>
+  <body>
+
+    <div class="header">
+
+      <img src="img/logo7.png" class="logo" style="width:90px; height:90px;" alt="">
+      <span><div class="center"><p>Poker odds calculator</p></div></span>
+
+    </div>
+
+    <div class="main-body">
+      <div class="nav">
+        <div class="nav-buttons">
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+              <div class="collapsible-body"><a class="waves-effect waves-light btn light-blue darken-2" style="width:108px;"><i class="material-icons left">cloud</i>Run</a>
+                                            <div class="" style="height:5px;">
+
+                                            </div>
+                                            <a class="waves-effect waves-light btn light-blue darken-2"><i class="material-icons left">cloud</i>Draw</a>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+              <div class="collapsible-body"><a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+                                            <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+              <div class="collapsible-body"><a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+                                            <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="play-area">
+        <h4 class="center" style="margin-top:10px; color:white;">Texas Holdem</h4>
+        <div class="poker-table">
+                <div id="second-player" style="margin-top:3px;">
+                    <ul class="second-player">
+                        <li class="secondPlayer1 player"><img id="none" class="none" src="img/cardback.png"></li>
+                        <li class="secondPlayer2 player"><img id="none" class="none" src="img/cardback.png"></li>
+                    </ul>
+                </div>
+                <div id="secondArea">
+                  <ul>
+                  <li class="firstPlayer1 player"><img id="none" class="none" src="img/cardback.png"></li>
+                  <li class="firstPlayer2 player"><img id="none" class="none" src="img/cardback.png"></li>
+                  <li class="thirdPlayer1 player"><img id="none" class="none" src="img/cardback.png"></li>
+                  <li class="thirdPlayer2 player"><img id="none" class="none" src="img/cardback.png"></li>
+                </ul>
+              </div>
+
+                <div id="board" style="margin-top:30px;">
+                    <ul class="board">
+                        <li class="board1 player"><img id="none" class="none" src="img/cardback.png"></li>
+                        <li class="board2 player"><img id="none" class="none" src="img/cardback.png"></li>
+                        <li class="board3 player"><img id="none" class="none" src="img/cardback.png"></li>
+                        <li class="board4 player"><img id="none" class="none" src="img/cardback.png"></li>
+                        <li class="board5 player"><img id="none" class="none" src="img/cardback.png"></li>
+                    </ul>
+                </div>
+                <div id="first-player" style="margin-top:50px;">
+                    <ul class="first-player">
+                      <li class="fifthPlayer1 player"><img id="none" class="none" src="img/cardback.png"></li>
+                      <li class="fifthPlayer2 player"><img id="none" class="none" src="img/cardback.png"></li>
+                    </ul>
+                </div>
+                <div id="thirdArea">
+                  <ul>
+                    <li class="fourthPlayer1 player"><img id="none" class="none" src="img/cardback.png"></li>
+                    <li class="fourthPlayer2 player"><img id="none" class="none" src="img/cardback.png"></li>
+                    <li class="sixthPlayer1 player"><img id="none" class="none" src="img/cardback.png"></li>
+                    <li class="sixthPlayer2 player"><img id="none" class="none" src="img/cardback.png"></li>
+                  </ul>
+                </div>
+                <div class="absolute no-display">
+                    <p class="winRate">Win:21.22%<br> Tie:21.22%</p>
+                </div>
+
+        </div>
+        <div class="right-footer">
+          <div class="left-side">
+
+            <ul class="choose-cards">
+                <li class="coll-item"><img id="A" class="spades" src="img/gifs/A-spades.gif"></li>
+                <li class="coll-item"><img id="K" class="spades" src="img/gifs/K-spades.gif"></li>
+                <li class="coll-item"><img id="Q" class="spades" src="img/gifs/Q-spades.gif"></li>
+                <li class="coll-item"><img id="J" class="spades" src="img/gifs/J-spades.gif"></li>
+                <li class="coll-item"><img id="T" class="spades" src="img/gifs/T-spades.gif"></li>
+                <li class="coll-item"><img id="9" class="spades" src="img/gifs/9-spades.gif"></li>
+                <li class="coll-item"><img id="8" class="spades" src="img/gifs/8-spades.gif"></li>
+                <li class="coll-item"><img id="7" class="spades" src="img/gifs/7-spades.gif"></li>
+                <li class="coll-item"><img id="6" class="spades" src="img/gifs/6-spades.gif"></li>
+                <li class="coll-item"><img id="5" class="spades" src="img/gifs/5-spades.gif"></li>
+                <li class="coll-item"><img id="4" class="spades" src="img/gifs/4-spades.gif"></li>
+                <li class="coll-item"><img id="3" class="spades" src="img/gifs/3-spades.gif"></li>
+                <li class="coll-item"><img id="2" class="spades" src="img/gifs/2-spades.gif"></li>
+                <li class="coll-item"><img id="A" class="hearts" src="img/gifs/A-hearts.gif"></li>
+                <li class="coll-item"><img id="K" class="hearts" src="img/gifs/K-hearts.gif"></li>
+                <li class="coll-item"><img id="Q" class="hearts" src="img/gifs/Q-hearts.gif"></li>
+                <li class="coll-item"><img id="J" class="hearts" src="img/gifs/J-hearts.gif"></li>
+                <li class="coll-item"><img id="T" class="hearts" src="img/gifs/T-hearts.gif"></li>
+                <li class="coll-item"><img id="9" class="hearts" src="img/gifs/9-hearts.gif"></li>
+                <li class="coll-item"><img id="8" class="hearts" src="img/gifs/8-hearts.gif"></li>
+                <li class="coll-item"><img id="7" class="hearts" src="img/gifs/7-hearts.gif"></li>
+                <li class="coll-item"><img id="6" class="hearts" src="img/gifs/6-hearts.gif"></li>
+                <li class="coll-item"><img id="5" class="hearts" src="img/gifs/5-hearts.gif"></li>
+                <li class="coll-item"><img id="4" class="hearts" src="img/gifs/4-hearts.gif"></li>
+                <li class="coll-item"><img id="3" class="hearts" src="img/gifs/3-hearts.gif"></li>
+                <li class="coll-item"><img id="2" class="hearts" src="img/gifs/2-hearts.gif"></li>
+                <li class="coll-item"><img id="A" class="clubs" src="img/gifs/A-clubs.gif"></li>
+                <li class="coll-item"><img id="K" class="clubs" src="img/gifs/K-clubs.gif"></li>
+                <li class="coll-item"><img id="Q" class="clubs" src="img/gifs/Q-clubs.gif"></li>
+                <li class="coll-item"><img id="J" class="clubs" src="img/gifs/J-clubs.gif"></li>
+                <li class="coll-item"><img id="T" class="clubs" src="img/gifs/T-clubs.gif"></li>
+                <li class="coll-item"><img id="9" class="clubs" src="img/gifs/9-clubs.gif"></li>
+                <li class="coll-item"><img id="8" class="clubs" src="img/gifs/8-clubs.gif"></li>
+                <li class="coll-item"><img id="7" class="clubs" src="img/gifs/7-clubs.gif"></li>
+                <li class="coll-item"><img id="6" class="clubs" src="img/gifs/6-clubs.gif"></li>
+                <li class="coll-item"><img id="5" class="clubs" src="img/gifs/5-clubs.gif"></li>
+                <li class="coll-item"><img id="4" class="clubs" src="img/gifs/4-clubs.gif"></li>
+                <li class="coll-item"><img id="3" class="clubs" src="img/gifs/3-clubs.gif"></li>
+                <li class="coll-item"><img id="2" class="clubs" src="img/gifs/2-clubs.gif"></li>
+                <li class="coll-item"><img id="A" class="diamonds" src="img/gifs/A-diamonds.gif"></li>
+                <li class="coll-item"><img id="K" class="diamonds" src="img/gifs/K-diamonds.gif"></li>
+                <li class="coll-item"><img id="Q" class="diamonds" src="img/gifs/Q-diamonds.gif"></li>
+                <li class="coll-item"><img id="J" class="diamonds" src="img/gifs/J-diamonds.gif"></li>
+                <li class="coll-item"><img id="T" class="diamonds" src="img/gifs/T-diamonds.gif"></li>
+                <li class="coll-item"><img id="9" class="diamonds" src="img/gifs/9-diamonds.gif"></li>
+                <li class="coll-item"><img id="8" class="diamonds" src="img/gifs/8-diamonds.gif"></li>
+                <li class="coll-item"><img id="7" class="diamonds" src="img/gifs/7-diamonds.gif"></li>
+                <li class="coll-item"><img id="6" class="diamonds" src="img/gifs/6-diamonds.gif"></li>
+                <li class="coll-item"><img id="5" class="diamonds" src="img/gifs/5-diamonds.gif"></li>
+                <li class="coll-item"><img id="4" class="diamonds" src="img/gifs/4-diamonds.gif"></li>
+                <li class="coll-item"><img id="3" class="diamonds" src="img/gifs/3-diamonds.gif"></li>
+                <li class="coll-item"><img id="2" class="diamonds" src="img/gifs/2-diamonds.gif"></li>
+            </ul>
+          </div>
+          <div class="right-side">
+            <a id="new-hand" class="waves-effect waves-light btn btn-small red" style="margin-top: 14px;"><i class="material-icons right">loop</i>New Hand</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+
+
+  </script>
+  <script src="index.js"></script>
+  </body>
+</html>
